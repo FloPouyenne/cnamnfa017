@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Formulaire HTML</title>
+		<link rel="stylesheet" href="form.css">
+	</head>
+	<body>
+		<form method="post" action="/page">
+		<fieldset>
+			<legend>Client</legend>
+			<div>
+			Civilité : 
+			<input type="radio" name="mademoiselle" value="mademoiselle">
+			<label for="mademoiselle">Mademoiselle</label>
+			<input type="radio" name="madame" value="madame">
+			<label for="madame">Madame</label>
+			<input type="radio" name="monsieur" value="monsieur">
+			<label for="monsieur">Monsieur</label>
+			</div>
+			<div>
+			<label class="label1" for="nom">Nom :</label>
+			<input class="input1" type="text" name="nom">
+			</div>
+			<div>
+			<label class="label1" for="prenom">Prénom :</label>
+			<input class="input1" type="text" name="prenom">
+			</div>
+			<div>
+			<label class="label1" for="adresse">Adresse :</label>
+			<textarea name="adresse"></textarea>
+			</div>
+			<div>
+			<label class="label1" for="ville">Ville :</label>
+			<input class="input1" type="text" name="ville">
+			</div>
+			<div>
+			<label class="label1" for="code_postal">Code postal :</label>
+			<input class="input1" type="text" name="code_postal">
+			</div>
+			<div>
+			<label class="label1" for="envoi">CONFIMER</label>
+			<input type="submit" value="ENVOI" name="envoi">
+			</div>
+		</fieldset>
+		</form>
+	</body>
+</html>
