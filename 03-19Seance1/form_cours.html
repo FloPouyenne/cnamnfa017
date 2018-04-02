@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<form method="get" action="traitement.php">
+			<label for="nom">Nom :</label>
+			<input type="text" name="nom" id="nom" />
+			<label for="prenom">Prénom :</label>
+			<input type="text" name="prenom" id="prenom" />
+			
+			<!-- Boutons radio-->
+			Quel est votre couleur préférée ?
+			<input type="radio" name="couleur" value="bleu" />Bleu<br />
+			<input type="radio" name="couleur" value="vert" />Vert<br />
+			<input type="radio" name="couleur" value="rouge" />Rouge<br />
+			<input type="radio" name="couleur" value="jaune" />Jaune<br />
+			
+			<!-- Checkboxes -->
+			Quels sont vos loisirs ?
+			<input type="checkbox" name="shopping" />Faire du shopping<br />
+			<input type="checkbox" name="sport" />Faire du sport<br />
+			<input type="checkbox" name="musique" />Jouer de la musique<br />
+			<input type="checkbox" name="cinema" />Aller au cinéma<br />
+			
+			<!--Liste de sélection unique-->
+			Quel est votre couleur de cheveux ?
+			<select name="cheveux">
+				<option>blond(e)</option>
+				<option>brun(e)</option>
+				<option>roux(-sse)</option>
+			</select>
+			
+			<!--Liste de sélection multiple-->
+			Quelle langue parlez-vous ?
+			<select name="langue[]" multiple="multiple">
+				<option value="francais">Français</option>
+				<option value="anglais">Anglais</option>
+				<option value="espagnol">Espagnol</option>
+				<option value="italien">Italien</option>
+			</select>
+			
+			<input type="submit" value="envoyer" name="envoyer" />
+		</form>
+	</body>
+</html>
