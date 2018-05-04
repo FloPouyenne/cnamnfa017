@@ -1,0 +1,17 @@
+form{
+	margin:0 auto;
+	width:400px;
+}
+form div + div {
+	margin-top:1em;
+}
+.label1{
+	display:inline-block;
+	width:100px;
+}
+input.input1, {
+	width:200px;
+}
+input:focus, textarea:focus{
+	border-color:#000;
+}
