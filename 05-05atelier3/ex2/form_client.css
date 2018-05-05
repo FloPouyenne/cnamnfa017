@@ -1,0 +1,14 @@
+form{
+	margin:0 auto;
+	width:400px;
+}
+form div + div {
+	margin-top:1em;
+}
+
+input.input1, {
+	width:200px;
+}
+input1:focus {
+	border-color:#000;
+}
